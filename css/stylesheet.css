@@ -1,0 +1,46 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+hr {
+    width: 100%;
+}
+
+h1 {
+    font-family: "Muli", sans-serif;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+}
+
+.background {
+    background: #fff url('../images/nike.jpg') no-repeat center;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+    color: black;
+    font: normal 15px "Montserrat", Open Sans, sans-serif;
+    font-size: 25px;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font: "Montserrat", Open Sans, sans-serif;
+}
+
+.transbox {
+    background-size: cover;
+    top: 50%;
+    left: 50%;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: white;
+    opacity: 0.7;
+    border-radius: 5px;
+}
